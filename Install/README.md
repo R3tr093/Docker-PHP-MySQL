@@ -70,7 +70,7 @@
 
 <p> Positionner vous dans ce dossier afin de procéder au instructions suivantes, nous allons créer un fichier index.php </p>
 
-<em> sudo touch index.php <em>
+<em> sudo touch index.php </em>
 
 <br><br>
 
@@ -146,3 +146,30 @@
 
 <p> Je vais maintenant vous montrez comment accéder a votre terminal MySQL. </p>
 
+<p> Ouvrez un terminal et exécutez le code ci-dessous. </p>
+
+<em> sudo docker exec -it mysql8 /bin/bash </em>
+
+
+<img src="19.png">
+
+
+<p> Maintenant vous allez avoir besoin du nom d'utilisateur et du mot de passe que nous avons configuré pour la prochaine étape. </p>
+
+<p> Lancez la commande ci-dessous. </p>
+
+<em>mysql -uretro -proot</em>
+
+<p> mysql suivi du flag -u directement suivi de votre nom d'utilisateur, et un flag -p directement suivi de votre mot de passe.</p>
+
+<em> Dans mon cas : mysql -uretro -proot </em>
+
+<br><br>
+<img src="20.png">
+
+
+<p> Vous pouvez vérifier votre base de donnée avec la commande suivante.</p>
+
+<img src="21.png">
+
+<p> Vous disposez d'un conteneur qui vous fait tourner apache, php 7.3 et MySQL, vous l'allumez, le supprimer, le copier, le téléchargez en un clin d'oeil car il pése 400mb et vous pouvez le partagez à tout vos collaborateurs.</p>
