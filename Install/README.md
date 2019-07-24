@@ -24,16 +24,18 @@
 <br>
 <img src="4.png">
 
-<p> Vous pouvez ensuite ouvrir ce fichier depuis votre éditeur de texte ou avec vim avec la commande suivante <br><br>
+<p> Vous pouvez ensuite ouvrir ce fichier depuis votre éditeur de texte ou avec vim avec la commande suivante : <br><br>
 
 <em> vim docker-compose.yml </em>
 
+ <br><br>
+
 <img src="5.png">
 
-<p> Que vous ayez choisis vim ou votre éditeur  de texte le but c'est de mettre du texte recopier dans ce fichier le code ci-dessous : </p>
+<p> Que vous ayez choisis vim ou votre éditeur de texte le but c'est de mettre du texte, recopier dans ce fichier le code ci-dessous : </p>
 
 <img src="6.png">   
 
-
+<p> Les fichiers contenant du code seront conservés dans le dossier " example " du repository. </p>
 
 
