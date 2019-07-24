@@ -1,5 +1,3 @@
-# Docker-PHP-MySQL
-
 <h2> Étape 1 : Créez un répertoire </h2>
 <hr>
 
