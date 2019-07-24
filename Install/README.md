@@ -56,3 +56,23 @@
 <p> Vous devriez voir une page similaire à celle-ci. </p>
 
 <img src="8.png">
+
+<p> Pas de panique tout va bien, passons à la 3iéme étape. </p>
+
+<h2>Étape 3 : Autorisez l’accès au serveur.</h2>
+
+<p> Dans votre terminal votre conteneur qui porte le joli nom de php73 est entrain de tourner, pour continuer il va falloir l'arrêtez. </p>
+
+<p> Faîtes ctrl + c dans votre terminal et le conteneur devrait s'arrêtez, afin qu'on puisse modifier quelques fichiers </p>
+
+<p> Avec terminal rendez vous dans votre dossier web_dev afin de constater qu'un dossier php est apparu ! </p>
+
+<img src="9.png">
+
+<p> Positionner vous dans ce dossier afin de procéder au instructions suivantes, nous allons créer un fichier index.php </p>
+
+<em> sudo touch index.php <em>
+
+<br><br>
+
+<img src="10.png">
