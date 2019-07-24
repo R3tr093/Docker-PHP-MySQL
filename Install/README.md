@@ -37,7 +37,6 @@
 <img src="6.png">   
 
 
-<p> Les fichiers contenant du code seront conservés dans le dossier <em>" examples "</em> du repository. </p>
 
 <p> Une fois que vous avez écrit le code dans votre fichier retourner avec votre terminal dans votre dossier web_dev, il ne vous reste plus qu'une commande pour terminer cette étape : <br><br>
 
@@ -65,7 +64,7 @@
 
 <p> Faîtes ctrl + c dans votre terminal et le conteneur devrait s'arrêtez, afin qu'on puisse modifier quelques fichiers </p>
 
-<p> Avec terminal rendez vous dans votre dossier web_dev afin de constater qu'un dossier php est apparu ! </p>
+<p> Rendez vous dans votre dossier web_dev afin de constater qu'un dossier php est apparu ! </p>
 
 <img src="9.png">
 
@@ -76,3 +75,36 @@
 <br><br>
 
 <img src="10.png">
+
+<p>Obtenez les permissions sur le dossier PHP avec la commande suivante.</p>
+
+<p> Dans cette commande <em> " retro " </em> est mon nom d'utilisateur système remplacez donc ceci par votre nom d'utilisateur, cette commande doit être lancez depuis votre dossier web_dev, si cela ne fonctionne pas entrez sudo avant toutes vos commandes.</p>
+
+<em> sudo chown retro:retro php/ -R </em>
+
+<p> Maintenant nous pouvons retourner dans notre dossier php afin de mettre du code dans notre fichier index.php </p>
+
+<p> Ouvrez votre fichier afin d'y écrire le code suivant. </p>
+
+<img src="11.png">
+
+<p> Maintenant lancez votre conteneur avec la commande : </p>
+
+<em> sudo docker start php73 </em> 
+
+<p> Vous pouvez de nouveau ouvrir votre navigateur web sur l'adresse <a href="http://localhost:8000/">http://localhost:8000/ </a>, mais cette fois vous aurez votre " hello from docker " </p>
+
+<img src="12.png">
+
+
+<p> Si vous êtes arrivé jusqu'ici avec le résultat attendu, vous avez un serveur apache qui fait tourner du php version 7.3 </p>
+
+<p>Courage, il ne reste plus que la base de donnée. </p>
+
+<h2> Étape 4 : Créez une base de donnée </h2>
+
+<p>Place vous dans le dossier php de votre dossier web_dev </p>
+
+<em> cd web_dev/php </em>
+
+<p> Lancez la commande vim Dockerfile et insérez le code suivant : <p>
