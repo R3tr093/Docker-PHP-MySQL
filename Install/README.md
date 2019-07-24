@@ -36,6 +36,7 @@
 
 <img src="6.png">   
 
+
 <p> Les fichiers contenant du code seront conservés dans le dossier <em>" examples "</em> du repository. </p>
 
 <p> Une fois que vous avez écrit le code dans votre fichier retourner avec votre terminal dans votre dossier web_dev, il ne vous reste plus qu'une commande pour terminer cette étape : <br><br>
@@ -50,5 +51,5 @@
 
 
 
-
+<p> Les fichiers contenant du code seront conservés dans le dossier " example " du repository. </p>
 
