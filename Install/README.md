@@ -114,7 +114,35 @@
 <p> Ensuite retourner dans votre dossier web_dev afin d'apporter quelques modifications au fichier docker-compose.yml </p>
 
 <img src="15.png">
+<br><br>
+
+
+<p> Vous pouvez remplacer les champs : </p>
+      <br><br>MYSQL_ROOT_PASSWORD: root
+      <br>MYSQL_DATABASE: test_db
+      <br>MYSQL_USER: retro
+      <br>MYSQL_PASSWORD: root<br>
+
+<p> Dans ce cas, indiquez les valeurs que vous souhaitez comme mot de passe, nom d'utilisateurs, etc... </p>
 
 <p> Un petit coup de sudo docker-compose up </p>
 
 <em> sudo docker-compose up </em>
+
+<p> Maintenant nous dévons écrire un petit script php pour vérifier si on se connecter à notre base de donnée. </p>
+
+<p> Rendez vous donc dans le dossier php, et modifiez le fichier index.php avec le code suivant. </p>
+
+<img  src="16.png">
+
+<p> Depuis votre dossier web-dev lancez à nouveau la commande sudo docker-compose -up vous devriez avoir ceci comme résultat.</p>
+
+
+<img  src="17.png">
+
+<p>Ouvrez votre navigateur à l’adresse  <a href="http://localhost:8000/">http://localhost:8000/ </a>, et vérifier la connexion.</p>
+
+<img src="18.png">
+
+<p> Je vais maintenant vous montrez comment accéder a votre terminal MySQL. </p>
+
