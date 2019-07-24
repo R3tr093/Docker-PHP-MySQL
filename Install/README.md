@@ -47,9 +47,12 @@
 
 <img src="7.png">
 
-
-
-
-
 <p> Les fichiers contenant du code seront conservés dans le dossier " example " du repository. </p>
 
+<p> Si tout s'est passé comme prévu, vous pouvez déjà lancez votre navigateur web à l'adresse suivante : <br><br>
+
+<a href="http://localhost:8000/">http://localhost:8000/ </a>
+
+<p> Vous devriez voir une page similaire à celle-ci. </p>
+
+<img src="8.png">
