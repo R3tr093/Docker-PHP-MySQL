@@ -108,3 +108,13 @@
 <em> cd web_dev/php </em>
 
 <p> Lancez la commande vim Dockerfile et insérez le code suivant : <p>
+
+<img src="13.png">
+
+<p> Ensuite retourner dans votre dossier web_dev afin d'apporter quelques modifications au fichier docker-compose.yml </p>
+
+<img src="15.png">
+
+<p> Un petit coup de sudo docker-compose up </p>
+
+<em> sudo docker-compose up </em>
