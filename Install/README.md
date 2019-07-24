@@ -129,7 +129,7 @@
 
 <em> sudo docker-compose up </em>
 
-<p> Maintenant nous dévons écrire un petit script php pour vérifier si on se connecter à notre base de donnée. </p>
+<p> Maintenant nous dévons écrire un petit script php pour vérifier si on peut connecter notre base de donnée. </p>
 
 <p> Rendez vous donc dans le dossier php, et modifiez le fichier index.php avec le code suivant. </p>
 
